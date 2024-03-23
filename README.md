@@ -1,5 +1,5 @@
 # QR-Code-Generator
-Title: QR CODE GENERATOR:
+Title: QR CODE GENERATOR\n
 Abstract:
 This project presents the development of a QR code generator, a tool that enables users to create QR (Quick Response) codes for different types of content. The generator offers a user-friendly interface where users can input various data types such as URLs, text, contact information, or Wi-Fi credentials. Upon submission, the application processes the input data and generates a QR code image that encapsulates the provided information.
 The QR code generator is implemented using modern web technologies, including HTML, CSS, and JavaScript, for the frontend development. These technologies ensure a responsive and interactive user experience, allowing users to customize the appearance and parameters of the generated QR codes.
