@@ -1,14 +1,15 @@
-# QR-Code-Generator
-## Title: QR CODE GENERATOR
+# QR-Code-Generator-Reader
+## Title: QR CODE GENERATOR & READER
 Abstract:
-This project presents the development of a QR code generator, a tool that enables users to create QR (Quick Response) codes for different types of content. The generator offers a user-friendly interface where users can input various data types such as URLs, text, contact information, or Wi-Fi credentials. Upon submission, the application processes the input data and generates a QR code image that encapsulates the provided information.
-The QR code generator is implemented using modern web technologies, including HTML, CSS, and JavaScript, for the frontend development. These technologies ensure a responsive and interactive user experience, allowing users to customize the appearance and parameters of the generated QR codes.
-Additionally, the backend of the QR code generator is built using a suitable programming language (e.g., Python, Node.js) along with relevant libraries or frameworks for QR code generation. The backend handles the generation of QR code images based on the user input and delivers the generated images to the frontend for display.
-Key features of the QR code generator include:
-1. Support for various data types, including URLs, text, contact information, and Wi-Fi credentials.
-2. Customization options such as QR code size, colour, error correction level, and encoding format.
-3. Real-time preview of the generated QR code based on user input adjustments.
-4. Ability to download the generated QR code image in different file formats (e.g., PNG, SVG).
-5. Compatibility with different devices and screen sizes, ensuring accessibility across desktop and mobile platforms.
 
-Overall, the QR code generator project aims to provide a versatile and user-friendly tool for creating QR codes, catering to diverse use cases ranging from digital marketing to personal information sharing.
+The proposed project, "QR Code Generator and Reader," presents a comprehensive web application facilitating the generation and scanning of QR codes. This application encompasses a home page, QR code generator, and QR code reader modules.
+
+Upon accessing the home page, users are presented with intuitive options to either generate or read QR codes. Selection of either option navigates users to the corresponding functionality.
+
+The QR code generator module empowers users to dynamically generate QR codes by inputting data or selecting preferences. Various data types, including website URLs, text, and contact information, can be encoded. Furthermore, the generator incorporates a feature allowing users to download the generated QR code as an image file for offline usage.
+
+In the QR code reader module, users can leverage the device's camera to scan QR codes in real-time. Additionally, users have the ability to select an image from their device's gallery for scanning purposes. Upon successful scanning of a QR code, the application seamlessly extracts the encoded information, typically a website URL, and redirects users to the associated webpage.
+
+This project is implemented using fundamental web technologies such as HTML, CSS, and JavaScript, alongside specialized libraries for QR code generation and scanning. Notably, user authentication is not a prerequisite for utilizing this application, emphasizing a frictionless user experience.
+
+This project stands as a versatile solution catering to diverse user needs, ranging from personal information sharing to corporate marketing endeavors. Its user-centric design and functionality aim to streamline QR code utilization, facilitating seamless interaction with digital content.
