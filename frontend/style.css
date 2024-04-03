@@ -1,0 +1,113 @@
+
+html, body, header, main, section {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-image: url("home.png");
+}
+h2 {
+  margin-top: 20px; 
+  margin-bottom: 100px; 
+  margin-right: 100px;
+  font-family: garamond; 
+  color: aliceblue;
+  text-align: right;
+}
+
+header {
+  color: #efecef;
+  background-color: rgba(220, 16, 220, 0.6);
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: end;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0px;
+  font-family: garamond; 
+}
+
+header h1 {
+  margin: 0;
+  font-family: "lucida console";
+  color: #efecef;
+}
+
+
+main {
+  padding: 20px;
+}
+
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  position: relative; 
+}
+
+
+.blocks-container {
+  position: absolute; 
+  top: 130px; 
+  right: -50px; 
+  display: flex;
+  flex-direction: row; 
+  gap: 50px; 
+} 
+
+
+.block {
+  flex: 1;
+  height: 170px;
+  width: 180px;
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.block h3 {
+  margin-top: 0;
+}
+
+.block p {
+  margin-bottom: 15px;
+}
+
+.btn-generate,
+.btn-scan {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dc10dc96;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-generate:hover,
+.btn-scan:hover {
+  background-color: #dc10dc96;
+}
+
+
+.block:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+
+.reader-block {
+  align-self: flex-end;
+}

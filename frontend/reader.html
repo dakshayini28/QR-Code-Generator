@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Reader</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <h1>
+      QR Code Reader
+    </h1>
+  </header>
+  <main>
+    <section class="reader-section">
+      <h2>Scan QR Code</h2>
+      <div id="qr-reader"></div>
+      <div class="scan-options">
+        <button id="scan-camera-btn">Scan from Camera</button>
+        <input type="file" id="select-image-input" accept="image/*">
+        <label for="select-image-input">Select from Images</label>
+      </div>
+    </section>
+  </main>
+
+  <!-- <script src="https://unpkg.com/@zxing/library@0.21.0/umd/index.min.js"></script> Link to zxing-js library -->
+  <!-- <script src="script.js"></script> Link to your JavaScript file -->
+</body>
+</html>
