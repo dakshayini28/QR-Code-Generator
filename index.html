@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE GENERATOR AND READER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="generator.html" target="_blank">Generate QR</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reader.html" target="_blank">Read QR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us" >About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-------------------------------Banner section------------------------------- -->
+    <section id="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title">Welcome to QR Code Generator and Reader <img src="/images/qr.png" class="qr"></p>
+                    <p style="text-align:center">Easily generate and scan QR codes with our application.</p>
+                    <p style="text-align: center">
+                        Effortlessly generate or read QR codes!
+                        Whether you need to create a QR code for a website URL, text, or contact information,
+                        or scan one to retrieve embedded data, our user-friendly platform has you covered.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="/images/home1.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <img src="/images/wave1.png" class="bottom-img">
+    </section>
+
+    <!--------------------------- QR Code Generator Section------------------------ -->
+    <section id="services">
+        <div class="container text-center">
+            <h1 class="title">WHAT WE DO</h1>
+            <div class="row">
+                <div id="generator" class="col-md-6 services">
+                    <img src="/images/generator1.png" class="service-img">
+                    <h4>QR Code Generator</h4>
+                    <p>
+                        Generate your personalized QR codes in just a few simple steps. 
+                        Our QR Code Generator allows you to encode a variety of data types, 
+                        including website URLs, text, and contact information.
+                    </p>
+                    <p>Create your QR code now and share information effortlessly.</p>
+                    <a href="generator.html" class="btn btn-primary">GENERATOR</a>
+
+
+                </div>
+                <div id="reader" class="col-md-6 services">
+                    <img src="/images/reader1.png" class="service-img">
+                    <h4>QR Code Reader</h4>
+                    <p>
+                        Easily scan QR codes with our advanced QR Code Reader. 
+                        Use your camera to scan QR codes in real-time, 
+                        or select an image from your gallery to extract the encoded information. 
+                    </p>
+                    <p>Start scanning QR codes and unlock the information they hold.</p>
+                    <a href="reader.html" class="btn btn-primary">SCANNER OR READER</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------- About Us Section -------------------------------------->
+    <section id="about-us">
+        <div class="container">
+            <h1 class="title text-center">WHY CHOOSE US</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="why-us">Why we are different</p>
+                    <ul>
+                        <li><strong>User-Friendly Interface:</strong> Our application is designed with simplicity and ease of use in mind, making it accessible for users of all technical levels.</li>
+                        <li><strong>No Registration Required:</strong> Enjoy a seamless experience without the need for user authentication or registration. Start using the application immediately.</li>
+                        <li><strong>Secure and Reliable:</strong> We prioritize the security and privacy of your data, ensuring that your information is handled safely and responsibly.</li>
+                        <li><strong>Continuous Support and Updates:</strong> Benefit from ongoing support and regular updates to keep the application running smoothly and securely.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="/images/about-us.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------Footer Section ----------------------------------------->
+    <section id="footer">
+        <img src="/images/wave2.png" class="footer-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/images/logo.png" class="footer-box">
+                    <p>CONTACT US: xyz@gmail.com</p>
+                    <p>© Copyright, QRify</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Website crafted by QRify</p>
+        </div>
+    </section>
+</body>
+</html>
