@@ -12,3 +12,5 @@ In the QR code reader module, users can leverage the device's camera to scan QR 
 The application leverages modern web technologies including HTML5, CSS3, JavaScript, and Bootstrap for a robust and visually appealing interface. The QR code generation is powered by an external API, while the QR code scanning utilizes the HTML5 QR Code library for efficient and accurate decoding.
 
 This project stands as a versatile solution catering to diverse user needs, ranging from personal information sharing to corporate marketing endeavors. Its user-centric design and functionality aim to streamline QR code utilization, facilitating seamless interaction with digital content. Regular updates and continuous support ensure that the application's performance, security, and compatibility with new web standards and technologies are maintained.
+
+Link: https://dakshayini28.github.io/QRify/
